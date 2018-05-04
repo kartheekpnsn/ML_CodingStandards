@@ -62,7 +62,7 @@ Date		: 	26-APR-2018
 ```
 
 ## 3. Folder Structure
-To follow the folder structure mentioned below run the "create_ds_structure.py" in the working directory
+To follow the folder structure mentioned below run the "python create_ds_structure.py path" with path as command line argument
 ```
 ├── LICENSE
 ├── README.md             <- The top-level README for developers using this project.
@@ -82,6 +82,16 @@ To follow the folder structure mentioned below run the "create_ds_structure.py" 
 |	└── deprecated      
 │
 ├── notebooks
+│   ├── data              <- Scripts to download or generate or process data
+│   ├── features          <- Scripts to turn raw data into features for modeling
+│   │   └── build_features.ipynb
+│   ├── models            <- Scripts to train models and then use trained models to make predictions
+│   │   ├── train_model.py
+│   │   └── predict_model.ipynb
+│   ├── visualization     <- Scripts to create exploratory and results oriented visualizations
+│   |   ├── explore.ipynb
+│   |   └── visualize.ipynb
+│   └── deprecated
 │
 ├── references            <- Data dictionaries, manuals, and all other explanatory materials.
 │
@@ -89,7 +99,7 @@ To follow the folder structure mentioned below run the "create_ds_structure.py" 
 |	├── presentations
 |	├── figures       <- Generated graphics and figures to be used in reporting
 |	├── dashboards     
-│   └── deprecated
+│   	└── deprecated
 │
 ├── requirements.txt
 │
@@ -100,9 +110,10 @@ To follow the folder structure mentioned below run the "create_ds_structure.py" 
 │   ├── models            <- Scripts to train models and then use trained models to make predictions
 │   │   ├── train_model.py
 │   │   └── predict_model.py
-│   └── visualization     <- Scripts to create exploratory and results oriented visualizations
-│       ├── explore.py
-│       └── visualize.py
+│   ├── visualization     <- Scripts to create exploratory and results oriented visualizations
+│   |   ├── explore.py
+│   |   └── visualize.py
+│   └── deprecated
 │
 ├── cache                 <- This can be used to store .rda files or .pkl files or .npy files
 |
