@@ -1,4 +1,4 @@
-# ML_CodingStandards
+# Machine learning Standards (Coding, Document structure etc.)
 This repository is created to set coding standards and folder structure for any Machine learning usecase.
 
 ## 1. Coding standards
