@@ -61,7 +61,7 @@ Date		: 	26-APR-2018
 """
 ```
 
-### 3. Folder Structure
+## 3. Folder Structure
 To follow the folder structure mentioned below run the "create_ds_structure.py" in the working directory
 ```
 ├── LICENSE
